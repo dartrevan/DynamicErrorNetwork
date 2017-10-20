@@ -1,0 +1,9 @@
+numpy==1.13.3
+olefile==0.44
+Pillow==4.3.0
+progressbar2==3.34.3
+python-utils==2.2.0
+PyYAML==3.12
+six==1.11.0
+torch==0.2.0.post3
+torchvision==0.1.9
