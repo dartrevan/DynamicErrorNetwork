@@ -94,7 +94,7 @@ class batch_iterator():
             raise StopIteration()
         self.cur_batch += 1
         bsize = np.random.randint(16, 32)
-        return self.cur_batch, np.random.randn(32,1000)
+        return self.cur_batch, np.random.randn(bsize,1000)
 
     def __iter__(self): return self
 
